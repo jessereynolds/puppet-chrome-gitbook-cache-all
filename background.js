@@ -1,8 +1,9 @@
 document.addEventListener("keydown", cacheKeyHandler, false);
 
 async function cacheKeyHandler(e) {
+  keepGoing = true
   if (e.code === 'KeyC') {
-    while(true) {
+    while(keepGoing) {
       nextPage();
       await sleep(250);
     }
@@ -10,6 +11,7 @@ async function cacheKeyHandler(e) {
   if (e.code === 'KeyD') {
     // stop the caching
     // TODO
+    keepGoing = false
   }
 }
 function nextPage() {

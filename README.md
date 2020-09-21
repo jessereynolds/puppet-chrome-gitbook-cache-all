@@ -15,3 +15,11 @@ This is pretty simple minded and written by a javascript novice.
 
 * clone this repo
 * in Chrome, go to chrome://extensions, turn on developer mode, then click "load unpacked" and select the folder of this repo and load it
+
+
+## Usage
+
+* Load up the gitbook under puppet-kmo.gitbook.io
+* hit the 'c' key - this will start it progressing through each page
+* if you want it to stop, hit the 'd' key
+* navigate around as usual
