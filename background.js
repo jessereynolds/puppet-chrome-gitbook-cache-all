@@ -16,10 +16,10 @@ async function cacheKeyHandler(e) {
 }
 function nextPage() {
 
-  var inputs = document.getElementsByTagName('a');
-  steps = Array.from(inputs)
+  const inputs = document.getElementsByTagName('a');
+  const steps = Array.from(inputs)
   steps.forEach(function(element){
-    data = element.className.toString()
+    const data = element.className.toString()
     //console.log(data)
     if (data.includes("cardNext")){
       element.click()
