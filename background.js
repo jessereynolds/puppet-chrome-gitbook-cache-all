@@ -1,16 +1,16 @@
 document.addEventListener("keydown", cacheKeyHandler, false);
 
 async function cacheKeyHandler(e) {
-  keepGoing = true
+  let keepGoing = true
   if (e.code === 'KeyC') {
     while(keepGoing) {
       nextPage();
       await sleep(250);
+      console.log("gitbook-cache-all: end of loop body")
     }
   }
   if (e.code === 'KeyD') {
     // stop the caching
-    // TODO
     keepGoing = false
   }
 }
@@ -25,10 +25,7 @@ function nextPage() {
       element.click()
     }
   });
-  // TODO: wait for page to load
-  
-  // log something
-  console.log("end of loop body")
+  // TODO: wait for page to load / finish rendering?
 }
 
 function sleep(ms) {
