@@ -1,6 +1,6 @@
 {
   "name": "Puppet GitBook Cache All",
-  "description" : "Puppet GitBook Cache All Extension",
+  "description" : "Puppet GitBook Cache All Extension. Hit J key to start, K to stop.",
   "version": "1.0",
   "manifest_version": 2,
   "content_scripts": [
