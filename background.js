@@ -2,16 +2,16 @@ document.addEventListener("keydown", cacheKeyHandler, false);
 
 async function cacheKeyHandler(e) {
   keepGoing = true
-  if (e.code === 'KeyC') {
+  if (e.code === 'KeyJ') {
     while(keepGoing) {
       nextPage();
       await sleep(250);
       console.log("gitbook-cache-all: end of loop body")
     }
   }
-  if (e.code === 'KeyD') {
+  if (e.code === 'KeyK') {
     // stop the caching
-    console.log("gitbook-cache-all: d key pressed - stopping the loop")
+    console.log("gitbook-cache-all: K key pressed - stopping the loop")
     keepGoing = false
   }
 }

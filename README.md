@@ -1,6 +1,6 @@
 # Puppet Gitbook Cache All - Chrome Extension
 
-Load the extension, load the training docs site under `https://puppet-kmo.gitbook.io/*` and then hit the 'c' key and off it will go clicking through the site to load it into the local browser cache. The expiry on GitBook seems to be set to 24 hrs so this would need to be run at the start of each day's training.
+Load the extension, load the training docs site under `https://puppet-kmo.gitbook.io/*` and then hit the 'j' key and off it will go clicking through the site to load it into the local browser cache. The expiry on the GitBook data pages seems to be set to 24 hrs so this would need to be run at the start of each day's training.
 
 ## Warning
 
@@ -20,6 +20,6 @@ This is pretty simple minded and written by a javascript novice.
 ## Usage
 
 * Load up the gitbook under puppet-kmo.gitbook.io
-* hit the 'c' key - this will start it progressing through each page
-* if you want it to stop, hit the 'd' key
+* hit the 'j' key - this will start it progressing through each page
+* when you want it to stop, hit the 'k' key
 * navigate around as usual
